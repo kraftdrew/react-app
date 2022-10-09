@@ -130,7 +130,7 @@ function Products() {
                     ? <div>
                         <ProductList delete_post={DeletePost} posts={sortedList} key={posts.id}
                                      title="Products list"/>
-                        <Pagination count={pagesCountć} page={actualPage} variant="outlined" onChange={(e,value) => setActualPage(value) } />
+                        <Pagination count={pagesCount} page={actualPage} variant="outlined" onChange={(e,value) => setActualPage(value) } />
 
                     </div>
 
