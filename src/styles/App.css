@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue' , sans-serif;
+    color: #292929;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.hide_component {
+    display: none;
+}
+
+body,html {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+input {
+    writing-mode: horizontal-tb !important;
+    outline: none;
+
+
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+#root {
+    justify-content: center;
+}
+
+.App {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.post-enter {
+    opacity: 0;
+    transform: translateX(-550px);
+}
+
+.post-enter-active {
+
+    transform: translateX(0px);
+    opacity: 1;
+    transition: all 300ms ease-in;
+}
+
+.post-exit {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.post-exit-active {
+    transform: translateX(-550px);
+    opacity: 0;
+    transition: all 300ms ease-in;
+}
+
+.button_isActive {
+    border: 2px solid red !important;
+    font-weight: bold;
+}
+
+
+
+/*Navigation*/
+
+
+

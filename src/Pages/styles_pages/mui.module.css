@@ -1,0 +1,7 @@
+.button {
+    background: indianred;
+}
+
+.button:hover {
+    background: yellowgreen;
+}

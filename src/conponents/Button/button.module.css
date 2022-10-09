@@ -1,0 +1,27 @@
+
+.btn_main {
+
+    border: none;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 4px 30px;
+    color: white;
+    background: rgb(30, 30, 30);
+    font-size: 14px;
+}
+
+.btn_main:hover {
+    background: rgb(8, 8, 8);
+    cursor: pointer;
+}
+
+.btn_pagination {
+
+    border-radius: 0px;
+
+    margin: 5px 3px;
+    padding: 1px 10px;
+}
+
+
+

@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.search_wrapper {
+    border: 1px solid rgba(230, 230, 230, 1);
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    margin:  0 10px;
+}
+
+.search_logo {
+    margin: 0 6px;
+    height: 20px;
+    width: auto;
+}
+
+.search_input {
+    border: none;
+    margin-right: 15px;
+    background: transparent;
+
+}

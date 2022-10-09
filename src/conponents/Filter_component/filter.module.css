@@ -1,0 +1,14 @@
+.filter_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px auto;
+
+
+}
+
+.filter_wrapper > input {
+    width: 70%;
+}
+
+
